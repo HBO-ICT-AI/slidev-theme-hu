@@ -1,4 +1,4 @@
-@import 'prism-theme-vars/base.css';
+/* @import 'prism-theme-vars/base.css';
 @import 'codemirror-theme-vars/base.css';
 @import 'prism-theme-vars/to-codemirror.css';
 
@@ -53,6 +53,7 @@ html.dark {
   --prism-line-highlight-background: #444444;
   --prism-selection-background: #444444;
 }
+*/
 
 pre[class*='language-'] {
   @apply p-2;
@@ -60,7 +61,7 @@ pre[class*='language-'] {
 
 :not(pre) > code {
   font-size: 0.9em;
-  background: var(--prism-background);
+  /* background: var(--prism-background); */
   @apply font-light py-0.5 rounded;
   padding-left: .2em;
   padding-right: .2em;

@@ -69,8 +69,10 @@ center {
     text-align: center;
 }
 
+/* Disabled: slidev will hide the contents of the div automatically, but keep the appropriate amount of space reserved so that the rest of the slide doesn't need to move to accomated revealed v-clicks. */
+*
 .slidev-vclick-hidden {
-    display: none;
+    /* display: none; */
 }
 
 .slidev-layout td {
@@ -104,17 +106,4 @@ center {
 
 .center h1, .center h2, .center h3, .center p {
     text-align: center;
-}
-
-.col-left {
-  padding-right: 0.75em;
-}
-.col-right {
-  padding-left: 0.75em;
-}
-
-footer {
-    @apply absolute bottom-1 left-3 right-3 p-2;
-    border-top: 1px solid #00A0D2;
-    font-size: 0.7em;
 }
